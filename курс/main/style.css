@@ -1,0 +1,75 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+.head{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1366;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid yellow;
+}
+.gog{
+    font-size: 36;
+    color: yellow;
+    top:70;
+    position: relative
+}
+.forgot{
+    font-size: 10;
+    color: yellow;
+    position: relative;
+    top: 90;
+}
+.main{
+    border-top: solid yellow;
+    left: 0;
+    background-color: black;
+    height: 1366;
+    width: 1356;
+    top: 150;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.tettext, .sntext{
+    width: 500px;
+    height: 300px;
+    border: solid white;
+    color: white;
+}
+.brtext{
+    width: 500px;
+    height: 350px;
+    border: solid white;
+    color: white;
+}
+.snscreen{
+    border: solid white;
+    margin-left: 6%;
+}
+.brscreen{
+    border: solid white;
+}
+.tetscreen{
+    margin-left:8%;
+    border: solid white;
+}
+.foot{
+    border-top: solid yellow;
+    left: 0;
+    position: absolute;
+    top: 1516;
+    height: 150;
+    width: 1356;
+    background-color: black;
+    color: yellow;
+}
